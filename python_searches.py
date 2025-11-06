@@ -1,9 +1,5 @@
 def linear_search(search_item, items):
-    """Return boolean for if search_item in items"""
-    pass
-
-def linear_search_for_index(search_item, items):
-    """Return int index of search_item in items, or -1 for not there"""
+    """Return index for search_item in items or -1 if not found"""
     pass
 
 def binary_search(search_item, items):
