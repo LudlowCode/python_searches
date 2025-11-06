@@ -29,6 +29,7 @@ def binary_search(search_item, items):
             start_index = mid_index + 1
     #...only return False when you are sure that the search_item is not in items
     return False
-
-print(binary_search(4, [1,3,4,5,5,48,450]))
+#----TESTS----#
+print(linear_search(4, [1,3,4,5,5,48,450]))
+#print(binary_search(4, [1,3,4,5,5,48,450]))
 
