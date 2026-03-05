@@ -14,7 +14,7 @@ def binary_search(search_item, items):
         mid_index = 9999
         # set current_item to the item in the middle
         current_item = items[9999]
-        # if current item is what we're looking for return True
+        # if current item is what we're looking for return its index
         if current_item == search_item:
             return 9999
         # otherwise update the start_index or end_index depending on 
@@ -23,9 +23,9 @@ def binary_search(search_item, items):
             ? = ?
         else:
             ? = ?
-        # return False when you are sure that the search_item is not in items
+        # return -1 when you are sure that the search_item is not in items
 
 #----TESTS----# Uncomment these when you are ready
-#assert(linear_search(4, [1,3,4,5,5,48,450]),2)
-#assert(binary_search(4, [1,3,4,5,5,48,450]),2)
+#assert linear_search(4, [1,3,4,5,5,48,450])
+#assert binary_search(4, [1,3,4,5,5,48,450])
 
