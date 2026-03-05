@@ -3,12 +3,12 @@ def linear_search(search_item, items):
     pass
 
 def binary_search(search_item, items):
-    """Return boolean for if search_item in sorted list items"""
-    # set start_index and end_index based on sub-array item could be in.
+    """Return index for search_item in items or -1 if not found in sorted list items"""
+    # Change these integers to set start_index and end_index based on sub-array item could be in. Change any integer that is 9999 in this program
     start_index = 9999
     end_index = 9999
     
-    # loop as long as subarray is not empty
+    # loop as long as subarray is not empty.
     while start_index <= 9999:
         # mid_index is int average of start_index and end_index
         mid_index = 9999
