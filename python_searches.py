@@ -26,6 +26,6 @@ def binary_search(search_item, items):
         # return False when you are sure that the search_item is not in items
 
 #----TESTS----#
-print(linear_search(4, [1,3,4,5,5,48,450]))
-#print(binary_search(4, [1,3,4,5,5,48,450]))
+assert(linear_search(4, [1,3,4,5,5,48,450]),2)
+assert(binary_search(4, [1,3,4,5,5,48,450]),2)
 
