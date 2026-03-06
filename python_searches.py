@@ -1,5 +1,11 @@
 def linear_search(search_item, items):
     """Return index for search_item in items or -1 if not found"""
+    #count-controlled loop through the items
+
+    #return index if item is found
+
+    #return -1 when you know that search_item is not in the list.
+    
     pass
 
 def binary_search(search_item, items):
@@ -26,6 +32,6 @@ def binary_search(search_item, items):
         # return -1 when you are sure that the search_item is not in items
 
 #----TESTS----# Uncomment these when you are ready
-#assert linear_search(4, [1,3,4,5,5,48,450])
-#assert binary_search(4, [1,3,4,5,5,48,450])
+#assert linear_search(4, [1,3,4,5,5,48,450])==2
+#assert binary_search(4, [1,3,4,5,5,48,450])==2
 
